@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood and Quotes</title>
+    <script src="mood.js"></script>
+    <link rel="stylesheet" href="mood.css">
+</head>
+<body onload="qouats()">
+    <h1>Welcome to Mood and Quotes</h1>
+    <p>Find inspiration and positivity here!</p>
+    <div id="quote">
+        <h2>Quote of the Day</h2>
+        <p id="quoteText"></p>
+    </div>
+<div id="mood1">
+    <label for="mood">Choose a mood:</label>
+        <select name="mood" id="mood">
+        <option value="happy">happy</option>
+        <option value="sad">sad</option>
+        <option value="angry">angry</option>
+        <option value="excited">excited</option>
+        </select>
+        <button id="moodButton" onclick="mood()">submit</button>
+        <p id="moodText"></p>
+</div>
+</body>
+</html>
